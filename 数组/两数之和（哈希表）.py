@@ -7,9 +7,10 @@ def two_sum_hash(nums,target):
         else: hash_map[num]=i
     return []
 
-target=int(input('请输入目标数'))
+target=int(input('请输入目标数：'))
 line=input('请输入数组')
 nums=list(map(int,line.split()))
 
 result=two_sum_hash(nums,target)
 print(result)
+input('按回车键推出')

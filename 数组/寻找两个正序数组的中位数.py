@@ -27,6 +27,7 @@ nums1=list(map(int,line1.split()))
 
 line2=input('请输入递增数组2：')
 nums2=list(map(int,line2.split()))
+
 result=searchmedianarry(nums1,nums2)
 print('中位数是',result)
-
+input('按回车键退出...')

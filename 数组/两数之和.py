@@ -5,7 +5,7 @@ def two_sum(num,target):
             if num[i]+num[j]==target:
                 return [i,j]
 
-target=int(input('输入目标数'))#获取用户输入
+target=int(input('输入目标数：'))#获取用户输入
 
 line = input('请输入数组：')#获取数组
 num= line.split()
@@ -13,4 +13,4 @@ num = list(map(int, num))
 
 result=two_sum(num,target)
 print(result)
-
+input('按回车键退出')
